@@ -1,0 +1,2731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2025" />
+<meta name="DC.rights.owner" content="(C) Copyright 2025" />
+<meta name="DC.type" content="topic" />
+<meta name="DC.title" content="DW_RCV_SHIPMENTS_CF" />
+<meta name="abstract" content="" />
+<meta name="description" content="" />
+<meta name="DC.format" content="XHTML" />
+<meta name="DC.identifier" content="dwrcvshipmentscf-tables" />
+<meta name="DC.language" content="en" />
+<link rel="stylesheet" type="text/css" href="../book.css" />
+<title>DW_RCV_SHIPMENTS_CF</title>
+</head>
+<body id="dwrcvshipmentscf-tables">
+
+   <h1 class="title topictitle1" id="ariaid-title1">DW_RCV_SHIPMENTS_CF</h1>
+
+   
+   
+   <div class="body"><p class="shortdesc"></p>
+
+      <p class="p">PO Receiving shipment fact table</p>
+
+      <div class="section"><h2 class="title sectiontitle">Details</h2>
+         
+         <p class="p">Module: Purchasing</p>
+
+      </div>
+
+      <div class="section"><h2 class="title sectiontitle">Key Columns</h2>
+         
+         <p class="p">SHIPMENT_LINE_ID</p>
+
+      </div>
+
+      <div class="section"><h2 class="title sectiontitle">Columns</h2>
+         
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><span class="desc tabledesc">Columns</span><colgroup><col /><col /><col /><col /><col /><col /><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d74850e76">Name</th>
+
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d74850e79">Datatype</th>
+
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d74850e82">Length</th>
+
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d74850e85">Precision</th>
+
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d74850e88">Not Null</th>
+
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d74850e92">Comments</th>
+
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d74850e95">Referred Table</th>
+
+                     <th class="entry cell-norowborder" style="vertical-align:top;" id="d74850e98">Referred Column</th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SHIPMENT_LINE_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 ">True</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Receiving shipment receipt line unique identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SOURCE_RECORD_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">256</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column is for Oracle Internal use only. Source record identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SHIPMENT_HEADER_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Receiving shipment receipt header unique identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">RECEIPT_NUM</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Receipt number for the receiving shipment receipt header.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SUPPLIER_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Supplier unique identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_PARTY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">SUPPLIER_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SUPPLIER_SITE_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Supplier site unique identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_SUPPLIER_SITE_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">SUPPLIER_SITE_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SHIP_TO_ORG_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Inventory organization unique identifier where the receipt and shipment are created.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_INV_ORGANIZATION_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">INV_ORGANIZATION_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">EXPECTED_RECEIPT_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the expected arrival date of the shipment.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CALENDAR_DATE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">ASN_TYPE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">ASN (Advanced Shipment Notification) type of the shipment. Valid values are ASN, ASBN and STD for a receipt.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_RCV_ASN_TYPE_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SHIPPED_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the date when the shipment was created.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CALENDAR_DATE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SHIPMENT_NUM</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Shipment number assigned by the shipment source. Corresponds to the ASN number, Intransit number and Transfer order number.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">FREIGHT_CARRIER_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the Freight Carrier unique identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_PARTY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">PARTY_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PACKING_SLIP</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the Packing slip number.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">BILL_OF_LADING</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the Bill of lading number.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">WAYBILL_AIRBILL_NUM</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the waybill or air bill number.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">NUM_OF_CONTAINERS</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the number of containers in the shipment.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">COMMENTS</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">999</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the note created by the receiver.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">HEADER_CREATION_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">TIMESTAMP</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates the date and time of the creation of the header row.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">HEADER_CREATION_DATE_1</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates the date of the creation of the header row.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CALENDAR_DATE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">HEADER_CREATED_BY_USER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">128</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates the user who created the header row.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_USER_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">USERNAME</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">HEADER_LAST_UPDATE_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">TIMESTAMP</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates the date and time of the last update of the header row.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">HEADER_LAST_UPDATED_BY_USER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">128</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates the user who last updated the header row.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_USER_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">USERNAME</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PROC_FISCAL_PERIOD_SET_NAME</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Accounting calendar name based on primary ledger of procurement org.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_FISCAL_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">FISCAL_PERIOD_SET_NAME</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PROC_FISCAL_PERIOD_TYPE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Accounting period type based on primary ledger of procurement org.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_FISCAL_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">FISCAL_PERIOD_TYPE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">INV_FISCAL_PERIOD_SET_NAME</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Accounting calendar name based on primary ledger of receiving inventory org. #2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_FISCAL_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">FISCAL_PERIOD_SET_NAME</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">INV_FISCAL_PERIOD_TYPE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Accounting period type based on primary ledger of receiving inventory org #2.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_FISCAL_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">FISCAL_PERIOD_TYPE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">REQ_FISCAL_PERIOD_SET_NAME</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Accounting calendar name based on primary ledger of requisition org.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_FISCAL_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">FISCAL_PERIOD_SET_NAME</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">REQ_FISCAL_PERIOD_TYPE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Accounting period type based on primary ledger of requisition org.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_FISCAL_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">FISCAL_PERIOD_TYPE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">FISCAL_PERIOD_NAME</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">64</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Accounting period name.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SHIPMENT_LINE_NUM</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the number corresponding to the shipment line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">ITEM_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the inventory item unique identifier of the document for which the receiving shipment receipt line is created. #1</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_INVENTORY_ITEM_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">INVENTORY_ITEM_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">ITEM_DESCRIPTION</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">256</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the purchase order line item description for PO receipts. For other documents, it stores the inventory item description.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SUPPLIER_ITEM_NAME</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">512</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Supplier item number.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">CATEGORY_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the Item category unique identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_ITEM_CATEGORIES_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CATEGORY_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_HEADER_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the purchase order header unique identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_LINE_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the purchase order line unique identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_LINE_LOCATION_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the purchase order schedule unique identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_DISTRIBUTION_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the purchase order distribution unique identifier. This is populated once shipment lines are put away i.e. delivered.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">QUANTITY_SHIPPED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the net quantity shipped for the receiving shipment receipt line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">QUANTITY_RECEIVED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the net quantity received for the receiving shipment receipt line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">QUANTITY_ACCEPTED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the net quantity accepted for the receiving shipment receipt line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">QUANTITY_REJECTED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the net quantity rejected for the receiving shipment receipt line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">QUANTITY_DELIVERED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the net quantity delivered for the receiving shipment receipt line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">QUANTITY_RETURNED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the net quantity returned for the receiving shipment receipt line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">QUANTITY_CONSUMED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Supplier consigned Inventory consumed quantity.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">UOM_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the unit of measure code for the receiving shipment receipt line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_UNIT_OF_MEASURE_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">UOM_CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">CONSIGNED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column if the receipt line is created for consigned material. Values are Y/N/NO VALUE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SHIP_TO_LOCATION_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Receiving location unique identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_WORKER_LOCATION_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">LOCATION_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">DESTINATION_TYPE_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Destination type code for the shipment line. Values are RECEIVING, DROP SHIP, EXPENSE, INVENTORY, MANUFACTURING</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_RCV_DESTINATION_TYPE_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SHIPMENT_LINE_STATUS_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Shipment status of receipt line. Values are EXPECTED, PARTIALLY RECEIVED, FULLY RECEIVED, CANCELLED.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_RCV_SHIPMENT_STATUS_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SOURCE_DOCUMENT_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Source document code for the receiving transactions. Values are PO, RMA, ASN, REQ, INVENTORY, TRANSFER ORDER etc.
+
+Currently only SOURCE_DOCUMENT_CODE = PO is considered</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_RCV_SOURCE_DOCUMENT_TYPE_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">LINE_CREATION_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">TIMESTAMP</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates the date and time of the creation of the receipt line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">LINE_CREATION_DATE_1</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates the date of the creation of the receipt line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CALENDAR_DATE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">LINE_CREATED_BY_USER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">128</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates the user who created the receipt line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_USER_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">USERNAME</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">LINE_LAST_UPDATE_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">TIMESTAMP</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates the date and time of the last update of the receipt line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">LINE_LAST_UPDATED_BY_USER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">128</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates the user who last updated the row.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_USER_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">USERNAME</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">RECEIPT_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Receiving date of goods/services. In case of multiple receive transactions for the shipment line, this column will hold the latest transaction date for RECEIVE or UNORDERED transactions.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CALENDAR_DATE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">DELIVER_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Delivery date of goods/services. In case of multiple deliver transactions for the shipment line, this column will hold the latest transaction date for DELIVER transactions.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CALENDAR_DATE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PUOM_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the primary unit of measure code for the receiving shipment receipt line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_UNIT_OF_MEASURE_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">UOM_CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PUOM_CONVERSION_FACTOR</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Conversion factor based on the Transation UOM and Primary UOM.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PUOM_QUANTITY_SHIPPED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the net quantity shipped for the receiving shipment receipt line in PUOM.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PUOM_QUANTITY_RECEIVED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the net quantity received for the receiving shipment receipt line in PUOM.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PUOM_QUANTITY_ACCEPTED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the net quantity accepted for the receiving shipment receipt line in PUOM.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PUOM_QUANTITY_REJECTED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the net quantity rejected for the receiving shipment receipt line in PUOM.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PUOM_QUANTITY_DELIVERED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the net quantity delivered for the receiving shipment receipt line in PUOM.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PUOM_QUANTITY_RETURNED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">This column stores the net quantity returned for the receiving shipment receipt line in PUOM.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PUOM_QUANTITY_CONSUMED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Supplier consigned Inventory consumed quantity in PUOM.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">RECEIVED_AMOUNT_NON_QTY</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Amount received for a fixed price service receipt line in purchase order currency.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">GLOBAL_RECEIVED_AMOUNT_NON_QTY</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Amount received for a fixed price service receipt line in Global Currency.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">RECEIVED_AMOUNT_QTY</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Amount received for a Quantity based receipt line in purchase order currency.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">GLOBAL_RECEIVED_AMOUNT_QTY</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Amount received for a Quantity based receipt line in Global Currency.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">RECEIVED_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Based on the Line Location PUOM Unit Price and Received PUOM Quantity Amount is calculated</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">ACCEPTED_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Based on the Line Location PUOM Unit Price and Accepted PUOM Quantity Amount is calculated</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">DELIVERED_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Based on the Line Location PUOM Unit Price and DeliveredPUOM Quantity Amount is calculated</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">REJECTED_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Based on the Line Location PUOM Unit Price and Rejected PUOM Quantity Amount is calculated</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">RETURNED_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Based on the Line Location PUOM Unit Price and Returned PUOM Quantity Amount is calculated</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">GLOBAL_CURRENCY_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Global currency code.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_CURRENCY_DETAILS_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CURRENCY_CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">GLOBAL_CURRENCY_EXCH_RATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Global currency conversion rate.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">GLOBAL_RECEIVED_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Based on the Line Location PUOM Unit Price and Received PUOM Quantity Amount is calculated in Global Currency</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">GLOBAL_ACCEPTED_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Based on the Line Location PUOM Unit Price and Accepted PUOM Quantity Amount is calculated in Global Currency</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">GLOBAL_DELIVERED_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Based on the Line Location PUOM Unit Price and DeliveredPUOM Quantity Amount is calculated in Global Currency</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">GLOBAL_REJECTED_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Based on the Line Location PUOM Unit Price and Rejected PUOM Quantity Amount is calculated in Global Currency</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">GLOBAL_RETURNED_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Based on the Line Location PUOM Unit Price and Returned PUOM Quantity Amount is calculated in Global Currency</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PURCHASE_ORDER_NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Purchase order number.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_DOCUMENT_STATUS</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Purchase order status. Values are CLOSED FOR INVOICING, OPEN, CLOSED FOR RECEIVING etc.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_DOCUMENT_STATUS_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_REVISION_NUM</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Purchase order document revision number.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_APPROVED_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Date on which first version of purchase order was approved.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CALENDAR_DATE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PROCUREMENT_BU_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Procurement business unit identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_INTERNAL_ORG_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">ORGANIZATION_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">REQUISITION_BU_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Requisition business unit identifer.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_INTERNAL_ORG_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">ORGANIZATION_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">REQUISITION_LEDGER_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Primary ledger id of requisition BU</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_LEDGER_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">LEDGER_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PROCUREMENT_LEDGER_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Primary ledger id of procurment BU</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_LEDGER_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">LEDGER_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">BUYER_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Buyer unique identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_PERSON_NAME_CURRENT_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">PERSON_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_LINE_NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Purchase order line number.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_LINE_TYPE_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Purchase order line type unique identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_PURCHASING_LINE_TYPE_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">LINE_TYPE_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_LINE_STATUS</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Purchase order line status. Values are CLOSED FOR INVOICING, OPEN, CLOSED FOR RECEIVING etc.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_PO_LINE_STATUS_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_LINE_UNIT_PRICE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Unit price for the purchase order line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_CURRENCY_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Unique identifier for the purchase order currency.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_CURRENCY_DETAILS_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CURRENCY_CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_MANUFACTURER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">999</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Name of the company that manufactures the item being purchased.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_MANUFACTURER_PART_NUM</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">999</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Number that uniquely identifies the item as provided by the manufacturer.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_LINE_LOCATION_NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Purchase order line location (schedule) number.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SCHEDULE_STATUS</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Purchase order line location (schedule) status.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_PO_SCHEDULE_STATUS_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PRODUCT_TYPE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">256</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Product type specifies whether the transaction line is for a good, or a service, or it is a memo line. Values could be GOODS/SERVICES.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_ZX_PRODUCT_TYPE_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">RECEIVING_ROUTING_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Receipt routing unique identifier.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_RCV_ROUTING_HEADERS_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">QUANTITY_ORDERED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Purchase order line location quantity ordered.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_UOM_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Unit of measure code for the purchase order line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_UNIT_OF_MEASURE_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">UOM_CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">NEED_BY_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Date that the buying company requests the ordered item or service to be delivered.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_DAY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CALENDAR_DATE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">ACCEPTABLE_EARLY_DAYS</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Maximum acceptable number of days items can be received early.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">ACCEPTABLE_LATE_DAYS</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Maximum acceptable number of days items can be received late.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PROMISED_DELIVERY_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Date that the supplier has promised to deliver the ordered item or service.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">MODE_OF_TRANSPORT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Type of transportation used to ship the product, such as truck, air or boat (values could be AIR, PARCEL etc.). This column has coalesced value from PO Line Location and then PO Header.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_PO_MODE_OF_TRANSPORT_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SERVICE_LEVEL</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Priority of transportation that affects how quickly goods are transported (values could be Standard, Express, Air etc.). This column has coalesced value from PO Line Location and then PO Header.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_PO_SERVICE_LEVELS_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_PUOM_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Primary Unit of measure code for the purchase order line.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_UNIT_OF_MEASURE_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">UOM_CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_PUOM_CONVERSION_FACTOR</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Conversion factor based on the Transation UOM and Primary UOM at Purchase Order Level</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PUOM_QUANTITY_ORDERED</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Purchase order line location quantity ordered in PUOM.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PRICE_OVERRIDE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Order shipment price or break price for blanket purchase orders, RFQs, and quotations</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PUOM_PRICE_OVERRIDE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Order shipment price based on primary unit of measure.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PO_LINE_PUOM_UNIT_PRICE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Unit price for the purchase order line in PUOM.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">WORK_ORDER_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Unique identifier for the work order</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">WORK_ORDER_OPERATION_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">The unique identifier of a work order operation</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">WORK_ORDER_NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">128</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Number of the manufacturing work order</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">WORK_ORDER_OPERATION_SEQ</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates execution sequence of the work order operation</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">RECEIPT_CORRECTION_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if the shipment line contains any correction transaction. 
+Values are YES, NO.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">RECEIPT_ACCEPTED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if shipment line has Accepted Quantity = Received Quantity. Values are Y,N.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">RECEIPT_REJECTED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if shipment line has Rejected Quantity &gt; . 
+Values are Y,N.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">RECEIPT_RETURNED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if shipment line has Returned Quantity &gt; .
+Values are Y,N.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">UNORDERED_RECEIPT_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if receipt line is unordered and not yet matched to any purchase order i.e. no MATCH transaction type for the receipt line. Values are Y,N.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SHIPMENT_RECEIVED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if receipt line has been received i.e. receipt line has RECEIVE/UNORDERED transaction types. Values are Y,N.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">ASN_BASED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if receipt line is ASN or ASBN based. 
+Values are Y,N.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">SUBSTITUTE_ITEM_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if receipt line is a substitute item. 
+Values are Y,N.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">PROCESSING_TIME</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates no. of days to receive goods after purchase order (revision ).
+RECEIPT DATE - PO APPROVED DATE (revision )
+Value will be NULL if any one of the date attributes are NULL.
+In cases where PO APPROVED DATE &gt; RECEIPT DATE (example in back dated receipts), values will be capped at .</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">POST_PROCESSING_TIME</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates no. of days to deliver goods to requester after receiving the goods. 
+DELIVER DATE - RECEIPT DATE
+Value will be NULL if any one of the date attributes are NULL. 
+Value will change in cases where line is not fully delivered.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">TRANSPORTATION_TIME</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates no. of days to received goods after it is shipped. 
+Applicable only for ASN based shipments.
+RECEIPT HEADER CREATION DATE - SHIPPED DATE
+Value will be NULL if any one of the date attributes are NULL.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">EARLY_DELIVERY_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if shipment was received early.
+RECEIPT DATE &lt; PROMISED DELIVEY DATE, if null NEED BY DATE.
+Value will be N if any one of the date attributes are NULL.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">ONTIME_DELIVERY_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if shipment was received on-time.
+RECEIPT DATE = PROMISED DELIVEY DATE, if null NEED BY DATE.
+Value will be N if any one of the date attributes are NULL.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">LATE_DELIVERY_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if shipment was received late.
+RECEIPT DATE &gt; PROMISED DELIVEY DATE, if null NEED BY DATE.
+Value will be N if any one of the date attributes are NULL.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">EARLY_DELIVERY_TOLERANCE_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if shipment was received early including receipt tolerances.
+RECEIPT DATE &lt; PROMISED DELIVEY DATE, if null NEED BY DATE - ACCEPTABLE EARLY DAYS.
+Value will be N if any one of the date attributes are NULL.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e76 ">ONTIME_DELIVERY_TOLERANCE_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if shipment was received on-time including receipt tolerances.
+RECEIPT DATE BETWEEN (PROMISED DELIVEY DATE, if null NEED BY DATE) - ACCEPTABLE EARLY DAYS AND  (PROMISED DELIVEY DATE, if null NEED BY DATE) + ACCEPTABLE LATE DAYS
+Value will be N if any one of the date attributes are NULL.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d74850e76 ">LATE_DELIVERY_TOLERANCE_FLAG</td>
+
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d74850e79 ">VARCHAR2</td>
+
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d74850e82 ">32</td>
+
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d74850e85 "> </td>
+
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d74850e88 "> </td>
+
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d74850e92 ">Indicates if shipment was received late including receipt tolerances. 
+RECEIPT DATE &gt; PROMISED DELIVEY DATE, if null NEED BY DATE + ACCEPTABLE LATE DAYS
+Value will be N if any one of the date attributes are NULL.</td>
+
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d74850e95 ">DW_Y_N_D_TL</td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d74850e98 ">CODE</td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+      </div>
+
+      <div class="section"><h2 class="title sectiontitle">Notes</h2>
+         
+         <p class="p">#1 In these cases in addition to the item columns ORGANIZATION_ID column should also be used for join with DW_INVENTORY_ITEM_D.#2 In these cases to join with DW_FISCAL_DAY_D apart from FISCAL_PERIOD_TYPE and FISCAL_PERIOD_SET_NAME the relationship should be based on LINE_CREATION_DATE_1 column</p>
+
+      </div>
+
+   </div>
+
+<p></p><p><a href="https://docs.oracle.com/pls/topic/lookup?ctx=en/legal&id=cpyr">Copyright © </a>2019, 2025, Oracle and/or its affiliates. </p><p></p></body>
+</html>
