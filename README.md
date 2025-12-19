@@ -22,7 +22,7 @@ HCM
 [https://docs.oracle.com/en/cloud/saas/analytics/25r1/fahia/chapter-data-augmentation.html](https://docs.oracle.com/en/cloud/saas/analytics/25r1/fahia/chapter-data-augmentation.html)
 
 ERP
-[https://docs.oracle.com/en/cloud/saas/analytics/24r4/faiae/data-augmentation.html](https://docs.oracle.com/en/cloud/saas/analytics/24r4/faiae/data-augmentation.html)
+[https://docs.oracle.com/en/cloud/saas/analytics/25r4/faiae/data-augmentation.html](https://docs.oracle.com/en/cloud/saas/analytics/25r4/faiae/data-augmentation.html)
 
 SCM
 [https://docs.oracle.com/en/cloud/saas/analytics/24r4/fascm/chapter-data-augmentation.html](https://docs.oracle.com/en/cloud/saas/analytics/24r4/fascm/chapter-data-augmentation.html)
