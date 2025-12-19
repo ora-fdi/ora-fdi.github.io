@@ -1,5 +1,5 @@
 # Oracle Fusion Data Intelligence Data Catalog
-- [ERP Tables](/25R2_Fusion_ERP_Analytics_Tables.html)
+- [ERP Tables](/25R4_Fusion_ERP_Analytics_Tables.html)
 - [HCM Tables](/25R2_Fusion_HCM_Analytics_Tables.html)
 - [SCM Tables](/25R2_Fusion_SCM_Analytics_Tables.html)
 
@@ -10,7 +10,7 @@ HR (HCM) Data
 [https://docs.oracle.com/en/cloud/saas/analytics/25r1/fahia/chapter-introduction.html](https://docs.oracle.com/en/cloud/saas/analytics/25r1/fahia/chapter-introduction.html)
 
 Finance (ERP) Data
-[https://docs.oracle.com/en/cloud/saas/analytics/24r4/faiae/chapter-introduction.html](https://docs.oracle.com/en/cloud/saas/analytics/24r4/faiae/chapter-introduction.html)
+[https://docs.oracle.com/en/cloud/saas/analytics/25r4/index.html](https://docs.oracle.com/en/cloud/saas/analytics/25r4/index.html)
 
 Procurement (SCM) Data
 [https://docs.oracle.com/en/cloud/saas/analytics/24r4/fascm/chapter-introduction.html](https://docs.oracle.com/en/cloud/saas/analytics/24r4/fascm/chapter-introduction.html)

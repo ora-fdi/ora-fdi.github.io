@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2025" />
+<meta name="DC.rights.owner" content="(C) Copyright 2025" />
+<meta name="generator" content="DITA-OT" /><meta name="DC.type" content="topic" />
+<meta name="DC.title" content="DW_AGREEMENT_CHANGE_HEADERS_CF" />
+<meta name="abstract" content="" />
+<meta name="description" content="" />
+<meta name="DC.format" content="XHTML" />
+<meta name="DC.identifier" content="dwagreementchangeheaderscf-tables" />
+<meta name="DC.language" content="en" />
+<link rel="stylesheet" type="text/css" href="../book.css" />
+<title>DW_AGREEMENT_CHANGE_HEADERS_CF</title>
+</head>
+<body id="dwagreementchangeheaderscf-tables">
+
+   <h1 class="title topictitle1" id="ariaid-title1">DW_AGREEMENT_CHANGE_HEADERS_CF</h1>
+
+   
+   
+   <div class="body"><p class="shortdesc"></p>
+
+      <p class="p">Contains details for Purchase Agreement Headers for Accepted Agreement Versions. Data for Cancelled Purchase Agreements and Cancelled Change Order Versions will not be available. Also, data will appear only when some changes happen for the Purchase Agreement headers as part of the Agreement Version (Changes may happen for details which are not available on the Fact)</p>
+
+      <div class="section"><h2 class="title sectiontitle">Details</h2>
+         
+         <p class="p">Module: Purchasing</p>
+
+      </div>
+
+      <div class="section"><h2 class="title sectiontitle">Key Columns</h2>
+         
+         <p class="p">FROM_CHANGE_ORDER_SEQUENCE, AGREEMENT_HEADER_ID</p>
+
+      </div>
+
+      <div class="section"><h2 class="title sectiontitle">Columns</h2>
+         
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><span class="desc tabledesc">Columns</span><colgroup><col /><col /><col /><col /><col /><col /><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d59129e76">Name</th>
+
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d59129e79">Datatype</th>
+
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d59129e82">Length</th>
+
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d59129e85">Precision</th>
+
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d59129e88">Not Null</th>
+
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d59129e92">Comments</th>
+
+                     <th class="entry nocellnorowborder" style="vertical-align:top;" id="d59129e95">Referred Table</th>
+
+                     <th class="entry cell-norowborder" style="vertical-align:top;" id="d59129e98">Referred Column</th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">AGREEMENT_HEADER_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 ">True</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Agreement Header identifier</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">FROM_CHANGE_ORDER_SEQUENCE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 ">True</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">The starting point of the co sequence range within which the record is valid (Inclusive)</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">SOURCE_RECORD_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">128</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">This column is for Oracle Internal use only. Source record identifier</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">TO_CHANGE_ORDER_SEQUENCE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">The ending point of the co sequence range within which the record is valid (Exclusive)</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">AGREEMENT_VERSION_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Agreement Version identifier</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">CHANGE_ORDER_NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">128</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Change Order Number</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">AGREEMENT_NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Agreement Number</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">TYPE_LOOKUP_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Type of the Document</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">CURRENCY_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Currency Code</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_CURRENCY_DETAILS_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">CURRENCY_CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_CURRENCY_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Currency Code of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_CURRENCY_DETAILS_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">CURRENCY_CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">CURRENCY_CODE_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Currency Code changed from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">AGREEMENT_DESCRIPTION</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">256</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Descriptive comments for the document</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_AGREEMENT_DESCRIPTION</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">256</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Descriptive comments of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">AGREEMENT_DESCRIPTION_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Descriptive comments for the document changed from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">SUPPLIER_SITE_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Supplier site unique identifier</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_SUPPLIER_SITE_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">SUPPLIER_SITE_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_SUPPLIER_SITE_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Supplier site unique identifier of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_SUPPLIER_SITE_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">SUPPLIER_SITE_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">SUPPLIER_SITE_ID_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Supplier site unique identifier changed from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">BUYER_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Buyer unique identifier</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_PERSON_NAME_CURRENT_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">PERSON_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_BUYER_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Buyer unique identifier of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_PERSON_NAME_CURRENT_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">PERSON_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">BUYER_ID_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Buyer unique identifier changed from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PAYMENT_TERMS_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Payment terms unique identifier</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_AP_TERMS_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">PAYMENT_TERMS_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_PAYMENT_TERMS_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Payment terms unique identifier of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_AP_TERMS_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">PAYMENT_TERMS_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PAYMENT_TERMS_ID_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Payment terms unique identifier changed from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">CARRIER_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Carrier Identifier</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_PARTY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">PARTY_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_CARRIER_ID</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">38</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 ">0</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Carrier Identifier of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_PARTY_D</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">PARTY_ID</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">CARRIER_ID_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Carrier Identifier changed from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">MODE_OF_TRANSPORT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Mode of Transport</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_MODE_OF_TRANSPORT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Mode of Transport of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">MODE_OF_TRANSPORT_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Mode of Transport changed from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">SERVICE_LEVEL</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Service Level</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_SERVICE_LEVEL</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Service Level of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">SERVICE_LEVEL_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Service Level changed from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">FREIGHT_TERMS_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Type of freight terms for the document</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_FREIGHT_TERMS_LKP_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">FREIGHT_TERMS_CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_FREIGHT_TERMS_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Type of freight terms for the previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_FREIGHT_TERMS_LKP_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">FREIGHT_TERMS_CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">FREIGHT_TERMS_CODE_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if freight terms changed from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">FOB_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Type of free-on-board terms for the document</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_FOB_LKP_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">FOB_CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_FOB_CODE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Type of free-on-board terms for the previous version document</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_FOB_LKP_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">FOB_CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">FOB_CODE_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if free-on-board terms changed from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PAY_ON_RECEIPT_INDICATOR</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Indicator of whether the Agreement will be paid upon receipt</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_PAY_ON_RECEIPT_INDICATOR</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Indicator of whether the Agreement will be paid upon receipt of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PAY_ON_RECEIPT_INDICATOR_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if paid upon receipt changed from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">NOTE_TO_SUPPLIER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">999</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Short note to supplier</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_NOTE_TO_SUPPLIER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">999</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Short note to supplier of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">NOTE_TO_SUPPLIER_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Short note to supplier changed from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">NOTE_TO_RECEIVER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">999</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Note to receiver</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_NOTE_TO_RECEIVER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">999</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Note to receiver of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">NOTE_TO_RECEIVER_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Note to receiver changed from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">COMMUNICATION_METHOD</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Supplier Notification Method</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_DOC_COMM_METHOD_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_COMMUNICATION_METHOD</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">32</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Supplier Notification Method of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 ">DW_DOC_COMM_METHOD_D_TL</td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 ">CODE</td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">COMMUNICATION_METHOD_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Supplier Notification Method changed from pervious version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">START_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Date the document becomes effective</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_START_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Date the document becomes effective of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">START_DATE_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Date the document becomes effective is modified from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">END_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Expiration date of the document</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_END_DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">DATE</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Expiration date of the document of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">END_DATE_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Expiration date of the document is modified from previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">AGREEMENT_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Amount agreed for the agreement</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_AGREEMENT_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Amount agreed for the agreement of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">AGREEMENT_AMOUNT_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Amount agreed for the agreement changed from pervious version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">MIN_RELEASE_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Minimum amount that can be released against the agreement</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">PREVIOUS_MIN_RELEASE_AMOUNT</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">NUMBER</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Minimum amount that can be released against the agreement of previous version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">MIN_RELEASE_AMOUNT_CHANGED_FLAG</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">VARCHAR2</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 ">16</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Set to Y if Minimum amount that can be released against the agreement changed from pervious version</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e76 ">CREATION_TIMESTAMP</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e79 ">TIMESTAMP</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e82 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e92 ">Who column: indicates the date and time of the creation of the row.</td>
+
+                     <td class="entry nocellnorowborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cell-norowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d59129e76 ">LAST_UPDATE_TIMESTAMP</td>
+
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d59129e79 ">TIMESTAMP</td>
+
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d59129e82 "> </td>
+
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d59129e85 "> </td>
+
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d59129e88 "> </td>
+
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d59129e92 ">Who column: indicates the date and time of the last update of the row.</td>
+
+                     <td class="entry row-nocellborder" style="vertical-align:top;" headers="d59129e95 "> </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d59129e98 "> </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+      </div>
+
+   </div>
+
+<p></p><p><a href="https://docs.oracle.com/pls/topic/lookup?ctx=en/legal&id=cpyr">Copyright © </a>2019, 2025, Oracle and/or its affiliates. </p><p></p></body>
+</html>
