@@ -10,15 +10,15 @@ This is a convenience site that publishes the Oracle Fusion Data Intelligence ta
 
 ### HR (HCM) Data
 
-https://docs.oracle.com/en/cloud/saas/analytics/26r3/fahia/
+[Oracle HCM Documentation](https://docs.oracle.com/en/cloud/saas/analytics/26r3/fahia/)
 
 ### Finance (ERP) Data
 
-https://docs.oracle.com/en/cloud/saas/analytics/26r3/faiae/
+[Oracle ERP Documentation](https://docs.oracle.com/en/cloud/saas/analytics/26r3/faiae/)
 
 ### Procurement / Supply Chain (SCM) Data
 
-https://docs.oracle.com/en/cloud/saas/analytics/26r3/fascm/
+[Oracle SCM Documentation](https://docs.oracle.com/en/cloud/saas/analytics/26r3/fascm/)
 
 ## Mapping from Fusion SaaS to FDI
 
@@ -26,12 +26,12 @@ Oracle calls these spreadsheets "Data Augmentation." They contain Fusion entitie
 
 ### HCM
 
-https://docs.oracle.com/en/cloud/saas/analytics/26r3/fahia/chapter-data-augmentation.html
+[HCM Data Augmentation](https://docs.oracle.com/en/cloud/saas/analytics/26r3/fahia/chapter-data-augmentation.html)
 
 ### ERP
 
-https://docs.oracle.com/en/cloud/saas/analytics/26r3/faiae/data-augmentation.html
+[ERP Data Augmentation](https://docs.oracle.com/en/cloud/saas/analytics/26r3/faiae/data-augmentation.html)
 
 ### SCM
 
-https://docs.oracle.com/en/cloud/saas/analytics/26r3/fascm/chapter-data-augmentation.html
+[SCM Data Augmentation](https://docs.oracle.com/en/cloud/saas/analytics/26r3/fascm/chapter-data-augmentation.html)
