@@ -1,28 +1,37 @@
-# Oracle Fusion Data Intelligence Data Catalog
+# Oracle Fusion Data Intelligence Data Catalog - 26R3
+
 - [ERP Tables](/26R3_Fusion_ERP_Analytics_Tables.html)
 - [HCM Tables](/26R3_Fusion_HCM_Analytics_Tables.html)
 - [SCM Tables](/26R3_Fusion_SCM_Analytics_Tables.html)
 
+This is a convenience site that publishes the Oracle Fusion Data Intelligence table catalogs supplied by Oracle.
 
-This is a convenience site to publish the files Oracle makes available here:
+## Oracle Documentation
 
-HR (HCM) Data
-[https://docs.oracle.com/en/cloud/saas/analytics/25r1/fahia/chapter-introduction.html](https://docs.oracle.com/en/cloud/saas/analytics/25r1/fahia/chapter-introduction.html)
+### HR (HCM) Data
 
-Finance (ERP) Data
-[https://docs.oracle.com/en/cloud/saas/analytics/25r4/index.html](https://docs.oracle.com/en/cloud/saas/analytics/25r4/index.html)
+https://docs.oracle.com/en/cloud/saas/analytics/26r3/fahia/
 
-Procurement (SCM) Data
-[https://docs.oracle.com/en/cloud/saas/analytics/24r4/fascm/chapter-introduction.html](https://docs.oracle.com/en/cloud/saas/analytics/24r4/fascm/chapter-introduction.html)
+### Finance (ERP) Data
+
+https://docs.oracle.com/en/cloud/saas/analytics/26r3/faiae/
+
+### Procurement / Supply Chain (SCM) Data
+
+https://docs.oracle.com/en/cloud/saas/analytics/26r3/fascm/
 
 ## Mapping from Fusion SaaS to FDI
-Oracle calls these spreadsheets "Data Augmentation". They contain the entities and tables in Fusion and their equivalents in FDI.
 
-HCM
-[https://docs.oracle.com/en/cloud/saas/analytics/25r1/fahia/chapter-data-augmentation.html](https://docs.oracle.com/en/cloud/saas/analytics/25r1/fahia/chapter-data-augmentation.html)
+Oracle calls these spreadsheets "Data Augmentation." They contain Fusion entities and tables and their corresponding FDI objects.
 
-ERP
-[https://docs.oracle.com/en/cloud/saas/analytics/25r4/faiae/data-augmentation.html](https://docs.oracle.com/en/cloud/saas/analytics/25r4/faiae/data-augmentation.html)
+### HCM
 
-SCM
-[https://docs.oracle.com/en/cloud/saas/analytics/24r4/fascm/chapter-data-augmentation.html](https://docs.oracle.com/en/cloud/saas/analytics/24r4/fascm/chapter-data-augmentation.html)
+https://docs.oracle.com/en/cloud/saas/analytics/26r3/fahia/chapter-data-augmentation.html
+
+### ERP
+
+https://docs.oracle.com/en/cloud/saas/analytics/26r3/faiae/data-augmentation.html
+
+### SCM
+
+https://docs.oracle.com/en/cloud/saas/analytics/26r3/fascm/chapter-data-augmentation.html
