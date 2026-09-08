@@ -1,7 +1,7 @@
 # Oracle Fusion Data Intelligence Data Catalog
-- [ERP Tables](/25R4_Fusion_ERP_Analytics_Tables.html)
-- [HCM Tables](/25R2_Fusion_HCM_Analytics_Tables.html)
-- [SCM Tables](/25R2_Fusion_SCM_Analytics_Tables.html)
+- [ERP Tables](/26R3_Fusion_ERP_Analytics_Tables.html)
+- [HCM Tables](/26R3_Fusion_HCM_Analytics_Tables.html)
+- [SCM Tables](/26R3_Fusion_SCM_Analytics_Tables.html)
 
 
 This is a convenience site to publish the files Oracle makes available here:
